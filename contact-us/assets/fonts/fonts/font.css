@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('Roboto-Regular.eot');
+  src: url('Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+       url('Roboto-Regular.svg#Roboto-Regular') format('svg'),
+       url('Roboto-Regular.ttf') format('truetype'),
+       url('Roboto-Regular.woff') format('woff'),
+       url('Roboto-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-Italic';
+  src: url('Roboto-Italic.eot');
+  src: url('Roboto-Italic.eot?#iefix') format('embedded-opentype'),
+       url('Roboto-Italic.svg#Roboto-Italic') format('svg'),
+       url('Roboto-Italic.ttf') format('truetype'),
+       url('Roboto-Italic.woff') format('woff'),
+       url('Roboto-Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-BoldItalic';
+  src: url('Roboto-BoldItalic.eot');
+  src: url('Roboto-BoldItalic.eot?#iefix') format('embedded-opentype'),
+       url('Roboto-BoldItalic.svg#Roboto-BoldItalic') format('svg'),
+       url('Roboto-BoldItalic.ttf') format('truetype'),
+       url('Roboto-BoldItalic.woff') format('woff'),
+       url('Roboto-BoldItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('Roboto-Bold.eot');
+  src: url('Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+       url('Roboto-Bold.svg#Roboto-Bold') format('svg'),
+       url('Roboto-Bold.ttf') format('truetype'),
+       url('Roboto-Bold.woff') format('woff'),
+       url('Roboto-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url('Poppins-Bold.eot');
+  src: url('Poppins-Bold.eot?#iefix') format('embedded-opentype'),
+       url('Poppins-Bold.svg#Poppins-Bold') format('svg'),
+       url('Poppins-Bold.ttf') format('truetype'),
+       url('Poppins-Bold.woff') format('woff'),
+       url('Poppins-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  src: url('Poppins-SemiBold.eot');
+  src: url('Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
+       url('Poppins-SemiBold.svg#Poppins-SemiBold') format('svg'),
+       url('Poppins-SemiBold.ttf') format('truetype'),
+       url('Poppins-SemiBold.woff') format('woff'),
+       url('Poppins-SemiBold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
