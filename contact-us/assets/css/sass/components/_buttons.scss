@@ -1,0 +1,85 @@
+/* ---------------------------------------------------------------- */
+/* 04.Buttons                                                   
+/* ---------------------------------------------------------------- */
+.default-button {
+    border-radius: 5px;
+    display: inline-block;
+    background-color:$color_primary;
+    border: none;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    padding: 18px 36px;
+    transition: all 0.25s ease;
+    color: $color_white !important;
+    &:after {
+        display: none;
+        content: "";
+        position: absolute;
+        border-radius: 50%;
+        transition: all 0.25s ease;
+        background-color: rgba($color_black, 0.247);
+        width: 100px;
+        height: 100px;
+        margin-top: -50px;
+        margin-left: -50px;
+        top: 50%;
+        left: 50%;
+        animation: ripple 1s;
+        opacity: 0;
+    }
+    &:focus:not(:active)::after {
+        display: block;
+    }
+}
+// Alert Button
+.popup-btn {
+	border-radius: 5px;
+    display: inline-block;
+    border: none;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    padding: 12px 30px;
+    transition: all 0.25s ease;
+    color: $color_white !important;
+    &:after {
+        display: none;
+        content: "";
+        position: absolute;
+        border-radius: 50%;
+        transition: all 0.25s ease;
+        background-color: rgba($color_black, 0.247);
+        width: 100px;
+        height: 100px;
+        margin-top: -50px;
+        margin-left: -50px;
+        top: 50%;
+        left: 50%;
+        animation: ripple 1s;
+        opacity: 0;
+    }
+    &:focus:not(:active)::after {
+        display: block;
+    }
+    &.danger {
+        background-color: $color_danger;
+    }
+    &.success {
+        background-color: $color_primary;
+    }
+    &.agree {
+        background-color: $color_info;
+    }
+}
+// Check Button
+@keyframes ripple {
+    from {
+        opacity: 1;
+        transform: scale(0);
+    }
+    to {
+        opacity: 0;
+        transform: scale(10);
+    }
+}

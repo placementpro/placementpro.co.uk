@@ -1,0 +1,16 @@
+/* ---------------------------------------------------------------- */
+/* 07.Footer                                                   
+/* ---------------------------------------------------------------- */
+.footer {
+    background: $color_dark_blue;
+    .copyright-wrap {
+        padding: 30px;
+        .copyright-inner {
+            .copyright-text {
+                text-align: center;
+                color: $color_white;
+                opacity: 0.85;
+            }
+        }
+    } 
+}

@@ -1,0 +1,57 @@
+/* -------------------------------------------------------------------
+ * Plugin Name           : Conformy - PHP Ajax Modern Contact Form
+ * Author Name           : Yucel Yilmaz
+ * Author URI            : https://codecanyon.net/user/aip_theme3434
+ * Created Date          : 28 January 2020
+ * Last Update           : 22 July 2020
+ * Version               : 1.0.4
+ * File Name             : style.css
+------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------
+   Base                               
+   ------------------------ /
+ * 01.Base
+ * 02.Typography
+ * 03.Helper Class
+   ------------------------ /
+   Components                               
+   ------------------------ /
+ * 04.Buttons  
+   ------------------------ /
+   Layout                               
+   ------------------------ /
+ * 05.Contact Form  
+ * 06.Features 
+ * 07.Footer
+------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------- */
+/* 01.Base                               
+/* ---------------------------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    font : {
+        size: 16px;
+        family: $font_text; 
+        weight: 400;
+    }
+    line-height: 1.5;
+    color: $color_body_text;
+}
+a:link, a:hover, a:active, a:visited {
+    text-decoration: none;
+    color: $color_body_text;
+}
+ul, ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+textarea, textarea:focus, input, input:focus, button, button:focus {
+    outline: none;
+    resize: inherit;
+}

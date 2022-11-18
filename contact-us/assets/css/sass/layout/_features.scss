@@ -1,0 +1,31 @@
+/* ---------------------------------------------------------------- */
+/* 06.Features                                                   
+/* ---------------------------------------------------------------- */
+.features-box {
+    padding: 30px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    background: $color_white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px 0 $color_shadow;
+    transition: all 0.3s ease;
+    &:hover {
+        box-shadow: 0 22px 49px 0 $color_shadow;
+        transform: translateY(-10px);
+    }
+    .features-icon {
+        i {
+            color: $color_white;
+            font-size: 40px;
+            margin-left: 0;
+            display: inline-block;
+            margin-bottom: 20px;
+            line-height: 90px;
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            background: $color_primary;
+        }
+    }
+}
